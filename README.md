@@ -54,10 +54,6 @@ docker run -p 8000:8000 voice-api
 | `GET` | `/health` | Health check |
 | `POST` | `/obfuscate` | Upload a file (`form-data`, field `file`) → returns the obfuscated WAV |
 
-## Housekeeping before you show this to recruiters
-
-- `temp/` currently has committed sample output `.wav` files and `app/__pycache__/` is tracked in git. Add a `.gitignore` (`temp/*`, `__pycache__/`, `*.pyc`) and remove them from version control so the repo only contains source.
-
 ## License
 
 This project is licensed under the [GNU GPLv3 License](LICENSE).
